@@ -1,0 +1,67 @@
+# Project Python environments
+.venv/
+venv/
+env/
+# IDE and macOS metadata
+.idea/
+.vscode/
+*.iml
+.DS_Store
+# Python, testing and build caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+# Temporary files and local configuration
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+.env
+.env.*
+# Local databases, including SQLite journal and WAL files
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Local persistence diagnostics (including rotated logs)
+database/diagnostics.log*
+
+# Local test-center process locks
+*.review.lock
+
+# Private evidence and historical reports with local paths or personal results
+/docs/verification/
+/docs/PHASE_*_PRUEFBERICHT.md
+/docs/ABSCHLUSSBERICHT_DE.md
+/tests/gui_smoke*.py
+!/tests/gui_smoke_phase10.py
+/tests/benchmark_*.py
+
+# Local credentials, exported games and ad-hoc model snapshots
+*.pem
+*.key
+*.p12
+*.pfx
+*.pgn
+*.pgn.gz
+.netrc
+.npmrc
+.pypirc
+credentials*.json
+secrets*.json
+tokens*.json
+/models/
+/checkpoints/
+/exports/
+/private/

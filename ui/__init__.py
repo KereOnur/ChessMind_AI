@@ -1,0 +1,1 @@
+"""NeuroChess desktop user interface."""
